@@ -4,82 +4,130 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My characters</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="styles/index.css">
     <!---This is a webpage with basic info of my World of Warcraft 
     Season of Discovery characters-->
 </head>
 <body>
     
-    <center>
-    <img src="/images/wow_sod.jpg" alt="season of discovery">
+    <!---TO DO list:
+v   -adjust according to feedback                                 
+    -make everything centered
+    -make the webpage responsive so that you scroll down to 
+    see the chars on a smaller screen (width<height) and 
+    side by side on a pc or laptop. remove? since i now have nav instead
+    -change font
+v   -make a navigation bar
+    -make pages for the chars that you access by clicking the names
+    or in the navigation bar
+    -change size of the pictures!? in %
 
-
-    <div></strong><h2>Selenium</h2>
-    <p><h3>Druid</h3><br>
-    <img src="/images/selenium.jpg" alt="selenium">
-    <h4>
-    Level: 60<br>
-    Professions: LW+skinning<br>
-    Gearscore: 771<br>
-    Pieces of T1: 3<br>
-    Pieces of T0.5: 4<br><br>
-    </h4>
-    </p>
-    </div>
-
-
-    <div><strong></strong><h2>Aluminium</h2></strong>
-    <p><h3>Priest</h3><br>
-    <img src="/images/aluminium.jpg" alt="aluminium">
-    <h4>
-    Level: 60<br>
-    Professions: Alch+herb<br>
-    Gearscore: 753<br>
-    Pieces of T1: 1<br>
-    Pieces of T0.5: -<br><br>
-    </h4>
-    </p>
-    </div>
-
-    <div><strong></strong><h2>Cesium</h2></strong>
-    <p><h3>Warlock</h3><br>
-    <img src="/images/cesium.jpg" alt="cesium">
-    <h4>
-    Level: 60<br>
-    Professions: Tailoring+ench<br>
-    Gearscore: 717<br>
-    Pieces of T1: 2<br>
-    Pieces of T0.5: 2<br><br>
-    </h4>
-    </p>
-    </div>
-
-    <div><strong></strong><h2>Osmium</h2></strong>
-    <p><h3>Paladin</h3><br>
-    <img src="/images/osmium.jpg" alt="osmium">
-    <h4>
-    Level: 56<br>
-    Professions: Mining+BS<br>
-    Gearscore: 587<br>
-    Pieces of T1: -<br>
-    Pieces of T0.5: 3<br><br>
-    </h4>
-    </p>
-    </div>
-
-    <div><strong><h2>Iodine</h2></strong>
-    <p><h3>Mage</h3><br>
-    <img src="/images/iodine.jpg" alt="iodine">
-    <h4>
-    Level: 47<br>
-    Professions: Alch+engi<br>
-    Gearscore: 409<br>
-    Pieces of T1: -<br>
-    Pieces of T0.5: -<br><br>
-    </h4>
-    </p>
-    </div>
-  
+    always remember to save and push to github after every day's work!
+    -->
     
-    </center>
+    <header>
+        <img src="/images/wow_sod.jpg" alt="season of discovery">
+        <h1>My characters</h1>
+        <nav>
+            <ul>
+                <li><a href="#Selenium">Selenium</a></li>
+                <li><a href="#Aluminium">Aluminium</a></li>
+                <li><a href="#Cesium">Cesium</a></li>
+                <li><a href="#Osmium">Osmium</a></li>
+                <li><a href="#Iodine">Iodine</a></li>
+            </ul>
+            <ol>
+                <li>One</li>
+                <li>Two</li>
+                <li>Three</li>
+            </ol>
+        </nav>
+    </header>
+
+    <main>
+
+    <section id="Selenium">
+    <strong><h2 id="main-character">Selenium</h2></strong>
+    <h3>Druid</h3>
+    <img src="/images/selenium.jpg" alt="selenium">
+    <h4>Level: 60</h4>
+    <h4>Race: Nelf</h4>
+    <h4>Spec: Resto (feral)</h4>
+    <h4>Professions: LW+skinning</h4>
+    <h4>Gearscore: 771</h4>
+    <h4>Pieces of T1: 3</h4>
+    <h4>Pieces of T0.5: 4</h4>
+    <h4><a href="https://sod.warcraftlogs.com/character/eu/living-flame/selenium#difficulty=4">Logs</a></h4>
+    </section>
+
+    <section id="Aluminium">
+    <strong><h2>Aluminium</h2></strong>
+    <h3>Priest</h3>
+    <img src="/images/aluminium.jpg" alt="aluminium">
+    <h4>Level: 60</h4>
+    <h4>Race: Dwarf</h4>
+    <h4>Spec: Shadow (disc)</h4>
+    <h4>Professions: Alch+herb</h4>
+    <h4>Gearscore: 753</h4>
+    <h4>Pieces of T1: 1</h4>
+    <h4>Pieces of T0.5: -</h4>
+    <h4><a href="https://sod.warcraftlogs.com/character/eu/living-flame/aluminium#difficulty=4&size=40">Logs</a></h4>
+    </section>
+
+    <section id="Cesium">
+    <strong><h2>Cesium</h2></strong>
+    <h3>Warlock</h3>
+    <img src="/images/cesium.jpg" alt="cesium">
+    <h4>Level: 60</h4>
+    <h4>Race: Gnome</h4>
+    <h4>Spec: Fire/destro</h4>
+    <h4>Professions: Tailoring+ench</h4>
+    <h4>Gearscore: 717</h4>
+    <h4>Pieces of T1: 2</h4>
+    <h4>Pieces of T0.5: 2</h4>
+    <h4><a href="https://sod.warcraftlogs.com/character/eu/living-flame/cesium#difficulty=3">Logs</a></h4>
+    </section>
+    
+
+    <section id="Osmium">
+    <strong><h2>Osmium</h2></strong>
+    <h3>Paladin</h3>
+    <img src="/images/osmium.jpg" alt="osmium">
+    <h4>Level: 60</h4>
+    <h4>Race: Human</h4>
+    <h4>Spec: Holy (ret)</h4>
+    <h4>Professions: Mining+BS</h4>
+    <h4>Gearscore: 587</h4>
+    <h4>Pieces of T1: -</h4>
+    <h4>Pieces of T0.5: 4</h4>
+    <h4><a href="https://vanilla.warcraftlogs.com/">Logs</a></h4>
+    </section>
+
+    <section id="Iodine">
+    <strong><h2>Iodine</h2></strong>
+    <h3>Mage</h3>
+    <img src="/images/iodine.jpg" alt="iodine">
+    <h4>Level: 48</h4>
+    <h4>Race: Gnome</h4>
+    <h4>Spec: Fire (arcane)</h4>
+    <h4>Professions: Alch+engi</h4>
+    <h4>Gearscore: 409</h4>
+    <h4>Pieces of T1: -</h4>
+    <h4>Pieces of T0.5: -</h4>
+    <h4><a href="https://vanilla.warcraftlogs.com/">Logs</a></h4>
+    </section>
+    
+</main> 
+<footer>
+    <h4 class="goodbye">
+        See you in Azeroth!
+    </h4>
+    <img src="images/cat.jpeg" alt="cat" title="Tor (Moral support cat)" width="30%" height="30%">
+    <p class="cat-info">
+        This is my beloved sidekick Tor. He's an 8 years old Moggy (not of any specific breed) 
+        and he's a very hungry cat.
+    </p>
+</footer>   
 </body>
 </html>

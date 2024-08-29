@@ -1,0 +1,56 @@
+/*
+TO DO list:
+-center the nav
+
+*/
+
+
+
+body {
+    background-color: #565656;
+    background-image: url(../images/misty_mountains.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: Helvetica;
+    color: gainsboro;
+    text-align: center;
+}
+/*
+why isn't the lists centered?
+how can i make them centered?
+
+nav {
+    text-align: center;
+}
+
+ul {
+    text-align: center;
+}
+
+ol {
+    text-align: center;
+}
+*/
+
+h1 {
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+#main-character {
+    color: rgb(212, 39, 255);
+}
+
+.cat-info, .goodbye {
+    color:rgb(62, 177, 62)
+}
+
+img {
+    border-radius: 10px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black;
+    box-shadow: 15px 15px rgba(128, 128, 128, 0.384);
+}
